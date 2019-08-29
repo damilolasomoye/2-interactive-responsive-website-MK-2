@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*
+ {
+    margin: 50;
+    padding: 20;
+} 
+/*------Navigation------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index:50;
+}
+.navbar-brand img
+{
+    height: 100px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+   padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: left;  
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: purple !important ;
+}
+.navbar
+{   
+    background: whitesmoke ;
+}
+.navbar-toggler
+{
+   border: none !important;
+}
+  .nav-link
+  {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+  }
+/*------slider-------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top:50%;
+    transform: translateY(0%);
+    bottom: initial!important;
+}
+.carousel-caption
+{
+    color: white !important;
+    font-size: 20px;
+  /*------- About------- */
+}
+#about .line-content
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.line-content h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.line-content p
+{
+    text-align: center;
+    font-size: 20px;
+}
+#about
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 35px;
+    font-size: 38px;
+}
+
+.phrase
+{
+    box-shadow: 0 2px 20px black;
+    background-color: white;
+    transition: 0.5s;
+    opacity: 1;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.phrase p
+{
+    font-family: serif;
+    font-size: 20px !important;
+}
+
+
+.fa
+{
+    margin: 3px;
+    color: red;
+    
+}
+/* -----chat------ */
+#chat
+{
+    background-image: linear-gradient(rgba(124, 103, 103, 0.7),rgba(99, 74, 74, 0.7)), url(./img/2ndbackground);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 35px;
+    font-size: 38px;
+}
+.notes 
+{
+font-family: serif;
+}
+/*........ Testimonials.......... */
+.intro
+{
+    text-align: center;
+    padding: 20px;
+}
+.sect
+{
+    box-shadow: 0 2px 20px black;
+    background-color: white;
+    transition: 0.5s;
+    opacity: 1;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+.pic
+{
+   width: 40px;
+   height: 40px; 
+    border-radius: 50%;
+}
+.person-name
+{
+   color: red;
+}
